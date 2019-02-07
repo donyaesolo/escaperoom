@@ -21,17 +21,15 @@ html, body{
 	justify-content: center;
 }
 .small {
-	height: 100vh;
+	height: 100%;
 	width: 15%;
 }
 .big{
-	height: 100vh;
+	height: 100%;
 	width: 100%;
-	background-image: url(images/wall.jpg);
-	background-size: cover;
 }
 .col {
-	height: 100vh;
+	height: 100%;
 	width: calc(100%/3);
 }
 
@@ -43,4 +41,8 @@ html, body{
 .restrict-img-size {
 	max-height: 300%;
 	max-width: 100%;
+}
+.restrict-img-sizeb {
+	max-height: 25%;
+	max-width: 25%;
 }
