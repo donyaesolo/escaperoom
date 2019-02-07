@@ -1,0 +1,46 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	overflow-y: hidden;
+}
+
+/* Divs */
+.flex {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bottom-content {
+	display: flex;
+	align-items: end;
+	justify-content: center;
+}
+.small {
+	height: 100vh;
+	width: 15%;
+}
+.big{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/wall.jpg);
+	background-size: cover;
+}
+.col {
+	height: 100vh;
+	width: calc(100%/3);
+}
+
+.blue {
+	background-color: blue;
+}
+
+/* Image*/
+.restrict-img-size {
+	max-height: 300%;
+	max-width: 100%;
+}
